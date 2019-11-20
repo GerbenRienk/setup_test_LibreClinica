@@ -19,7 +19,6 @@ import groovy.time.TimeCategory as TimeCategory
 // def Today1String as String
 use(groovy.time.TimeCategory, { 
         def Today1 = new Date()
-
         GlobalVariable.Today1String = Today1.format('yyyyMMddHHmm')
     })
 
