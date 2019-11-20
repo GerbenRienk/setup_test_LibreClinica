@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Main study,Chrome 78.0.3904.97,The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.,,2019-11-20 20:10:03,2019-11-20 20:10:50,"47,320s",FAILED
+,,,,,,,
+Test Cases/techadmin_login,Chrome 78.0.3904.97,,,2019-11-20 20:10:03,2019-11-20 20:10:16,"13,189s",FAILED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 78.0.3904.97,,,2019-11-20 20:10:04,2019-11-20 20:10:04,"0,381s",PASSED
+"openBrowser("""")",Chrome 78.0.3904.97,,,2019-11-20 20:10:04,2019-11-20 20:10:13,"8,847s",PASSED
+"login_url = lc_url + ""/pages/login/login""",Chrome 78.0.3904.97,,,2019-11-20 20:10:13,2019-11-20 20:10:13,"0,016s",PASSED
+navigateToUrl(login_url),Chrome 78.0.3904.97,,,2019-11-20 20:10:13,2019-11-20 20:10:15,"2,597s",PASSED
+"setText(findTestObject(""Object Repository/input_User Name_j_username""), tech_admin)",Chrome 78.0.3904.97,,,2019-11-20 20:10:15,2019-11-20 20:10:16,"0,706s",FAILED
+,,,,,,,
+Test Cases/Study details,Chrome 78.0.3904.97,Provides all details for the main study,,2019-11-20 20:10:16,2019-11-20 20:10:50,"33,620s",FAILED
+"click(findTestObject(""Object Repository/Page_OpenClinica/a_Tasks""))",Chrome 78.0.3904.97,,,2019-11-20 20:10:17,2019-11-20 20:10:50,"32,796s",FAILED

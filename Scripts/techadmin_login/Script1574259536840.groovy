@@ -37,5 +37,3 @@ WebUI.setEncryptedText(findTestObject('input_Password_j_password'), GlobalVariab
 
 WebUI.sendKeys(findTestObject('Object Repository/input_Password_j_password'), Keys.chord(Keys.ENTER))
 
-WebUI.closeBrowser()
-

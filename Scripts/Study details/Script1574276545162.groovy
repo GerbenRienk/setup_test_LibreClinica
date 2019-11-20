@@ -16,20 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://tds-edc.com/lcw040/pages/login/login')
-
-WebUI.setText(findTestObject('Page_OpenClinica/input_User Name_j_username'), 'lctest_techadmin')
-
-WebUI.setEncryptedText(findTestObject('Page_OpenClinica/input_Password_j_password'), 'C1n+gVIkEM46+ew+Q7EB4w==')
-
-WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Tasks'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Users'))
-
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Tasks'))
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Studies'))
@@ -111,7 +97,8 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility 
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility City_facCity'), 'LC Facility City')
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility StateProvince_facState'), 'LC Facility State/Province')
+'This field is limited to 20 characters'
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility StateProvince_facState'), 'LC Fac State')
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Postal Code_facZip'), 'LC Postal Code')
 
@@ -127,7 +114,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility 
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Phone_facConPhone'), 'LC Facility Contact Phone')
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail'), 'LC Facility Contact Email')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail'), 'LC.Facility@lc.org')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Related Information'))
 
@@ -150,32 +137,4 @@ WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_YesNoNot Us
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_RequiredOptionalNot Used_eventLocatio_a6fb54'))
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Conditions and Eligibility'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Facility Information'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility StateProvince_facState'), 'LC Fac State/Province')
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail'), 'LC.Facility@lc.org')
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Related Information'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Study Parameter Configuration'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Conditions and Eligibility'))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/span_Facility Information'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility StateProvince_facState'), 'LC Fac State')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_OpenClinica/input_Facility StateProvince_facState'), Keys.chord(Keys.ENTER))
-
-WebUI.closeBrowser()
 

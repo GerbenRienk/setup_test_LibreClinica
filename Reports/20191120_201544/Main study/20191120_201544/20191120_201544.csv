@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Main study,Chrome 78.0.3904.97,The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.,,2019-11-20 20:15:58,2019-11-20 20:16:59,"1m - 0,698s",PASSED
+,,,,,,,
+Test Cases/techadmin_login,Chrome 78.0.3904.97,,,2019-11-20 20:15:59,2019-11-20 20:16:11,"11,841s",PASSED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 78.0.3904.97,,,2019-11-20 20:16:00,2019-11-20 20:16:00,"0,399s",PASSED
+"openBrowser("""")",Chrome 78.0.3904.97,,,2019-11-20 20:16:00,2019-11-20 20:16:08,"7,726s",PASSED
+"login_url = lc_url + ""/pages/login/login""",Chrome 78.0.3904.97,,,2019-11-20 20:16:08,2019-11-20 20:16:08,"0,001s",PASSED
+navigateToUrl(login_url),Chrome 78.0.3904.97,,,2019-11-20 20:16:08,2019-11-20 20:16:09,"0,713s",PASSED
+"setText(findTestObject(""Object Repository/input_User Name_j_username""), tech_admin)",Chrome 78.0.3904.97,,,2019-11-20 20:16:09,2019-11-20 20:16:09,"0,720s",PASSED
+"setEncryptedText(findTestObject(""input_Password_j_password""), tech_admin_pw)",Chrome 78.0.3904.97,,,2019-11-20 20:16:09,2019-11-20 20:16:10,"0,624s",PASSED
+"sendKeys(findTestObject(""Object Repository/input_Password_j_password""), Keys.chord(ENTER))",Chrome 78.0.3904.97,,,2019-11-20 20:16:10,2019-11-20 20:16:11,"0,936s",PASSED
+,,,,,,,
+Test Cases/Study details,Chrome 78.0.3904.97,Provides all details for the main study,,2019-11-20 20:16:11,2019-11-20 20:16:59,"48,350s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/a_Tasks""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:11,2019-11-20 20:16:12,"0,542s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/a_Studies""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:12,2019-11-20 20:16:13,"0,958s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/a_Create a New Study""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:13,2019-11-20 20:16:14,"1,064s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Unique Protocol ID_uniqueProId""), ""LCTEST"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:14,2019-11-20 20:16:15,"0,665s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Brief Title_name""), ""LibreClinica Test Study"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:15,2019-11-20 20:16:15,"0,672s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Official Title_officialTitle""), ""LC Official Title"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:15,2019-11-20 20:16:16,"0,619s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Secondary IDs_secondProId""), ""LC Secondary IDs"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:16,2019-11-20 20:16:17,"0,538s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Principal Investigator_prinInvestigator""), ""LC Principal Investigator"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:17,2019-11-20 20:16:17,"0,695s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Brief Summary_description""), ""LC Brief Summary"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:17,2019-11-20 20:16:18,"0,522s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Detailed Description_protocolDescription""), ""LC Detailed Description"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:18,2019-11-20 20:16:18,"0,551s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/div_Sponsor      Collaborators(separate by commas)""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:18,2019-11-20 20:16:19,"0,418s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Sponsor_sponsor""), ""LC Sponsor"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:19,2019-11-20 20:16:19,"0,525s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Collaborators(separate by commas)__2b0c49""), ""LC Collaborators"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:19,2019-11-20 20:16:20,"0,550s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_Select User _Save""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:20,2019-11-20 20:16:21,"1,008s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/a_Change StudySite""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:21,2019-11-20 20:16:22,"1,007s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_Default Study (Data Manager)_studyId""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:22,2019-11-20 20:16:22,"0,446s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:22,2019-11-20 20:16:23,"0,802s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:23,2019-11-20 20:16:24,"0,974s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/img""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:24,2019-11-20 20:16:25,"1,110s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Protocol VerificationIRB Approval Dat_68d9db""), ""01-Nov-2019"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:25,2019-11-20 20:16:26,"0,672s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Study Start Date_startDate""), ""02-Nov-2019"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:26,2019-11-20 20:16:26,"0,568s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Study Completion Date_endDate""), ""03-Nov-2019"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:26,2019-11-20 20:16:27,"0,545s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_-Select-                            _31eb25""), ""randomized"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:27,2019-11-20 20:16:28,"1,099s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_-Select-                            _78ca45""), ""double_blind"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:28,2019-11-20 20:16:29,"0,994s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_-Select-                            _74f527""), ""placebo"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:29,2019-11-20 20:16:30,"1,012s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_-Select-                            _0605f9""), ""parallel"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:30,2019-11-20 20:16:31,"0,982s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_-Select-                            _5c021a""), ""pharmacokinetics"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:31,2019-11-20 20:16:32,"1,067s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Conditions and Eligibility""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:32,2019-11-20 20:16:33,"0,450s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Conditions_conditions""), ""LC Conditions"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:33,2019-11-20 20:16:33,"0,606s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Keywords(separate by commas)_keywords""), ""LC Keywords"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:33,2019-11-20 20:16:34,"0,474s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/textarea_Eligibility Criteria_eligibility""), ""LC Eligibity Criteria"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:34,2019-11-20 20:16:34,"0,486s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Minimum Age_ageMin""), ""0"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:34,2019-11-20 20:16:35,"0,421s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Maximum Age_ageMax""), ""100"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:35,2019-11-20 20:16:35,"0,445s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_Yes          No""), ""1"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:35,2019-11-20 20:16:36,"0,927s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Expected total enrollment_expectedTot_acb6fa""), ""1000"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:36,2019-11-20 20:16:36,"0,470s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Facility Information""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:36,2019-11-20 20:16:37,"0,427s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Name_facName""), ""LC Facility Name"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:37,2019-11-20 20:16:37,"0,638s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility City_facCity""), ""LC Facility City"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:37,2019-11-20 20:16:38,"0,620s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility StateProvince_facState""), ""LC Facility State/Province"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:38,2019-11-20 20:16:39,"0,763s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Postal Code_facZip""), ""LC Postal Code"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:39,2019-11-20 20:16:39,"0,619s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Country_facCountry""), ""LC Facility Country"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:39,2019-11-20 20:16:40,"0,682s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Name_facConName""), ""LC Facility Name"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:40,2019-11-20 20:16:41,"0,622s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Degree_facConDegree""), ""LC "")",Chrome 78.0.3904.97,,,2019-11-20 20:16:41,2019-11-20 20:16:41,"0,439s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Name_facConName""), ""LC Facility Contact Name"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:41,2019-11-20 20:16:42,"0,720s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Degree_facConDegree""), ""LC Facility Contact Degree"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:42,2019-11-20 20:16:43,"0,749s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Phone_facConPhone""), ""LC Facility Contact Phone"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:43,2019-11-20 20:16:43,"0,806s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail""), ""LC Facility Contact Email"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:43,2019-11-20 20:16:44,"0,761s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Related Information""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:44,2019-11-20 20:16:45,"0,450s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_MEDLINE Identifier_medlineIdentifier""), ""LC Medline Identifier"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:45,2019-11-20 20:16:45,"0,716s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenClinica/select_Yes          No_1""), ""1"", true)",Chrome 78.0.3904.97,,,2019-11-20 20:16:45,2019-11-20 20:16:46,"0,906s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_URL Reference_url""), ""LC Url Reference"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:46,2019-11-20 20:16:47,"0,650s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_URL Description_urlDescription""), ""LC Url Description"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:47,2019-11-20 20:16:48,"0,669s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Study Parameter Configuration""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:48,2019-11-20 20:16:48,"0,406s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_RequiredOptionalNot Used_subjectPerso_cf04bc""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:48,2019-11-20 20:16:48,"0,408s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_YesNoNot Used_interviewerNameRequired""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:48,2019-11-20 20:16:49,"0,409s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_YesNoNot Used_interviewDateRequired""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:49,2019-11-20 20:16:49,"0,398s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_RequiredOptionalNot Used_eventLocatio_a6fb54""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:49,2019-11-20 20:16:50,"0,399s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:50,2019-11-20 20:16:51,"1,074s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:51,2019-11-20 20:16:52,"1,052s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Conditions and Eligibility""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:52,2019-11-20 20:16:52,"0,506s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Facility Information""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:52,2019-11-20 20:16:53,"0,408s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility StateProvince_facState""), ""LC Fac State/Province"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:53,2019-11-20 20:16:53,"0,721s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:53,2019-11-20 20:16:54,"0,393s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility Contact Email_facConEmail""), ""LC.Facility@lc.org"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:54,2019-11-20 20:16:54,"0,633s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Related Information""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:54,2019-11-20 20:16:55,"0,387s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Study Parameter Configuration""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:55,2019-11-20 20:16:55,"0,386s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:55,2019-11-20 20:16:56,"0,961s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Conditions and Eligibility""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:56,2019-11-20 20:16:57,"0,511s",PASSED
+"click(findTestObject(""Object Repository/Page_OpenClinica/span_Facility Information""))",Chrome 78.0.3904.97,,,2019-11-20 20:16:57,2019-11-20 20:16:57,"0,407s",PASSED
+"setText(findTestObject(""Object Repository/Page_OpenClinica/input_Facility StateProvince_facState""), ""LC Fac State"")",Chrome 78.0.3904.97,,,2019-11-20 20:16:57,2019-11-20 20:16:58,"0,599s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OpenClinica/input_Facility StateProvince_facState""), Keys.chord(ENTER))",Chrome 78.0.3904.97,,,2019-11-20 20:16:58,2019-11-20 20:16:58,"0,817s",PASSED
+closeBrowser(),Chrome 78.0.3904.97,,,2019-11-20 20:16:58,2019-11-20 20:16:59,"0,714s",PASSED
