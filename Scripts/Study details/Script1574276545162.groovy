@@ -104,10 +104,6 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Postal Co
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Country_facCountry'), 'LC Facility Country')
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Name_facConName'), 'LC Facility Name')
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Degree_facConDegree'), 'LC ')
-
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Name_facConName'), 'LC Facility Contact Name')
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Facility Contact Degree_facConDegree'), 'LC Facility Contact Degree')
