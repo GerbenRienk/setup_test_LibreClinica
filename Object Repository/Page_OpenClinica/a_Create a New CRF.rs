@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_submit</name>
+   <name>a_Create a New CRF</name>
    <tag></tag>
-   <elementGuidId>8ab32679-3e01-40c1-9eac-8ac2381c63e4</elementGuidId>
+   <elementGuidId>89367c42-f167-4258-8157-acb73b1b6749</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='submit']</value>
+         <value>//a[contains(text(),'Create a New CRF')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>CreateCRFVersion?module=admin</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Login</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>loginbutton</value>
+      <value>Create a New CRF</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login&quot;)/form[1]/input[@class=&quot;loginbutton&quot;]</value>
+      <value>/html[1]/body[@class=&quot;main_BG&quot;]/table[@class=&quot;background&quot;]/tbody[1]/tr[1]/td[1]/table[2]/tbody[1]/tr[1]/td[@class=&quot;aka_revised_content&quot;]/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;box_T&quot;]/div[@class=&quot;box_L&quot;]/div[@class=&quot;box_R&quot;]/div[@class=&quot;box_B&quot;]/div[@class=&quot;box_TL&quot;]/div[@class=&quot;box_TR&quot;]/div[@class=&quot;box_BL&quot;]/div[@class=&quot;box_BR&quot;]/div[@class=&quot;tablebox_center&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_actions&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;table_tools&quot;]/b[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//input[@name='submit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='login']/form/input</value>
+      <value>//a[contains(text(),'Create a New CRF')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blank CRF Template'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CRF Name'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Password Form'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DateUpdated'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LDAP users, recover your password here.'])[1]/preceding::input[1]</value>
+      <value>//a[contains(@href, 'CreateCRFVersion?module=admin')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
+      <value>//td[3]/b/a</value>
    </webElementXpaths>
 </WebElementEntity>

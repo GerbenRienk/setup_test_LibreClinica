@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>input_MS Excel File To Upload_excel_file</name>
    <tag></tag>
-   <elementGuidId>d483376c-9dc1-46e7-b2fd-ccb22cdbb198</elementGuidId>
+   <elementGuidId>3b0d9a9f-0aa2-443a-873e-1173907d5d51</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[1]/following::img[2]</value>
+         <value>//input[@id='excel_file_path']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>../images/bt_Edit.gif</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>border</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>file</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Edit</value>
+      <value>excel_file</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Edit</value>
+      <value>excel_file_path</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;main_BG&quot;]/table[@class=&quot;background&quot;]/tbody[1]/tr[1]/td[1]/table[2]/tbody[1]/tr[1]/td[@class=&quot;aka_revised_content&quot;]/form[1]/table[@class=&quot;contenttable&quot;]/tbody[1]/tr[1]/td[6]/a[2]/img[1]</value>
+      <value>id(&quot;excel_file_path&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[1]/following::img[2]</value>
+      <value>//input[@id='excel_file_path']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='xlsUpload']/form/div/div/div/div/div/div/div/div/div/div[3]/table/tbody/tr/td[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Progress'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MS Excel File To Upload:'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create CRF'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Started'])[1]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[@alt='Edit']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workflow'])[1]/preceding::input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]/img</value>
+      <value>//div/input</value>
    </webElementXpaths>
 </WebElementEntity>

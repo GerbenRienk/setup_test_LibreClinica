@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_LibreClinic
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_LibreClinica Test Study (Data Manager_046002'))
 
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/img'))
+WebUI.click(findTestObject('Page_OpenClinica/edit study icon'))
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Protocol VerificationIRB Approval Dat_68d9db'), '01-Nov-2019')
 

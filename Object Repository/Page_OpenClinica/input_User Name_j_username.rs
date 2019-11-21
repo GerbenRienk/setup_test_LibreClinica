@@ -110,11 +110,4 @@
       <type>Main</type>
       <value>//input</value>
    </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[1]/preceding::input[3]</value>
-   </webElementXpaths>
 </WebElementEntity>
