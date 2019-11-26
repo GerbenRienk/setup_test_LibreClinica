@@ -60,7 +60,47 @@ WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
 
 WebUI.navigateToUrl(upload_crf_url)
 
-WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\lcvalidations.xls')
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\t014_dde.xls')
+
+WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
+WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
+WebUI.navigateToUrl(upload_crf_url)
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\lcsite_common.xls')
+
+WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
+WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
+WebUI.click(findTestObject('Page_OpenClinica/a_Tasks'))
+
+WebUI.click(findTestObject('Page_OpenClinica/a_CRFs'))
+
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 'Site')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_OpenClinica/img_available_bt_NewVersion1'))
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\lcsite_site_a.xls')
+
+WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
+WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
+WebUI.click(findTestObject('Page_OpenClinica/a_Tasks'))
+
+WebUI.click(findTestObject('Page_OpenClinica/a_CRFs'))
+
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 'Site')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_OpenClinica/img_available_bt_NewVersion1'))
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\lcsite_site_b.xls')
 
 WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
 
