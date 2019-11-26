@@ -26,6 +26,6 @@
       <guid>a5b7e01b-8ce2-4855-a1ac-fe96b716b4fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/upload crf</testCaseId>
+      <testCaseId>Test Cases/upload crfs</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
