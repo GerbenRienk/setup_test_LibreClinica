@@ -39,7 +39,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password 
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
 
-WebUI.click(findTestObject('Page_OpenClinica/a_Users'))
+WebUI.navigateToUrl('https://tds-edc.com/lcw040/ListUserAccounts')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Create New User'))
 

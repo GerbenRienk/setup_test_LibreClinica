@@ -16,29 +16,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+def studybuild_url = GlobalVariable.lc_url + '/pages/studymodule'
 
-WebUI.navigateToUrl('https://tds-edc.com/lcw040/pages/login/login')
+WebUI.navigateToUrl(studybuild_url)
 
-WebUI.setText(findTestObject('Page_OpenClinica/input_User Name_j_username'), 'lctest_techadmin')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/select_Design                              _723fbc'), 
+    '1', true)
 
-WebUI.setEncryptedText(findTestObject('Page_OpenClinica/input_Password_j_password'), 'C1n+gVIkEM46+ew+Q7EB4w==')
-
-WebUI.sendKeys(findTestObject('Page_OpenClinica/input_Password_j_password'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Page_OpenClinica/a_Tasks'))
-
-WebUI.click(findTestObject('Page_OpenClinica/a_CRFs'))
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 'Site')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/img_available_bt_NewVersion1'))
-
-WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
-
-WebUI.click(findTestObject('Page_OpenClinica/input_Item for site A or in the common vers_9fc37b'))
+WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Set Study Status_saveStudyStatus'))
 
 WebUI.closeBrowser()
 

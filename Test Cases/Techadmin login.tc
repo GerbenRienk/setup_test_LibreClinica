@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>upload crfs</name>
+   <name>Techadmin login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6eb4206a-c62d-4e75-90c3-43df048520bf</testCaseGuid>
+   <testCaseGuid>2705f8b7-b27b-4296-8936-25e5bb3a6ba2</testCaseGuid>
 </TestCaseEntity>
