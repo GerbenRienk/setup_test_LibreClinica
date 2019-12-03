@@ -17,9 +17,9 @@
       <testCaseId>Test Cases/Techadmin login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>abaa32e9-801e-4bb1-8150-a6382fcf28dc</guid>
+      <guid>d5297a58-6e4a-46a5-8fd5-6179bc8be80d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Site specific crf</testCaseId>
+      <testCaseId>Test Cases/Create study events</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

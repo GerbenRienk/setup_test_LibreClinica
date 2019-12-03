@@ -47,9 +47,27 @@
       <testCaseId>Test Cases/Create sites A and B</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Close browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7fa247b1-0d3c-4c7a-bb15-5d1dc78511b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Techadmin login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ba7cea83-2522-45de-9d66-4d7a9543ec0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Site specific crf</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c12ff25f-9270-4bfd-a488-e0f5ddbb489f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Upload rules</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

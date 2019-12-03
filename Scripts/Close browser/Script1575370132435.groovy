@@ -14,14 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-def studybuild_url = GlobalVariable.lc_url + '/pages/studymodule'
-
-WebUI.navigateToUrl(studybuild_url)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/select_Design                              _723fbc'), 
-    '1', true)
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Set Study Status_saveStudyStatus'))
+WebUI.closeBrowser()
 

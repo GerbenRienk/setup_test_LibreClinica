@@ -127,6 +127,8 @@ WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica
 
 WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/td_NA'))
 
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Double Data Entry_doubleEntry0'))
+
 WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_NA_na0'))
 
 WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_UNK_unk0'))
@@ -193,6 +195,31 @@ WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica
 
 WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 
     'Site')
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Page 1 of 1_button_search'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_lctest_techadmin_selected0'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Category_Submit'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/td_NA'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_NA_na0'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_UNK_unk0'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Category_Submit'))
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Not Required_submit'))
+
+WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Name_name'), 'Rules')
+
+WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/textarea_Description_description'), 'Rules and Actions')
+
+WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Category_Submit'))
+
+WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 
+    'Rules')
 
 WebUI.click(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Page 1 of 1_button_search'))
 
