@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>After creating a blank database, login as root and create the techadmin account that we use for the rest of the setup.</description>
+   <name>Create DE 1 and 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfdb4f13-bda3-4627-9279-404737294b60</testCaseGuid>
+</TestCaseEntity>

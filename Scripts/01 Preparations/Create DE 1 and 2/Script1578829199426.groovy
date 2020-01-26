@@ -16,38 +16,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://tds-edc.com')
 
-WebUI.navigateToUrl('https://tds-edc.com/lcw040/pages/login/login')
+WebUI.navigateToUrl(GlobalVariable.lc_url)
 
-WebUI.setText(findTestObject('Page_OpenClinica/input_User Name_j_username'), 'root')
+WebUI.setText(findTestObject('Object Repository/input_User Name_j_username'), GlobalVariable.tech_admin)
 
-WebUI.setEncryptedText(findTestObject('Page_OpenClinica/input_Password_j_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('input_Password_j_password'), GlobalVariable.tech_admin_pw)
 
-WebUI.sendKeys(findTestObject('Page_OpenClinica/input_Password_j_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/input_Password_j_password'), Keys.chord(Keys.ENTER))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OpenClinica/input_Old Password_oldPasswd'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OpenClinica/input_New Password_passwd'), 'C1n+gVIkEM46+ew+Q7EB4w==')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OpenClinica/input_Confirm New Password_passwd1'), 'C1n+gVIkEM46+ew+Q7EB4w==')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/select_Please Select One             Favori_6c6052'), 
-    'Favorite Animal', true)
-
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password Challenge Answer_passwdChallengeA'), 'Blue')
-
-WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
-
-WebUI.navigateToUrl('https://tds-edc.com/lcw040/ListUserAccounts')
+WebUI.navigateToUrl('https://tds-edc.com/lcw050/ListUserAccounts')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/a_Create New User'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), 'lctest_techadmin')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), GlobalVariable.de_1)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_First Name_firstName'), 'LC Test')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_First Name_firstName'), 'Data Entry')
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Last Name_lastName'), 'Technical Administrator')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Last Name_lastName'), 'One')
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_email'), 'gerbenrienk@trialdatasolutions.com')
 
@@ -57,16 +44,16 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/sel
     '1', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/select_-Select-Data ManagerStudy DirectorDa_47481c'), 
-    '2', true)
+    '5', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OpenClinica/select_userbusiness administratortechnical _1e2dd4'), 
-    '3', true)
+    '1', true)
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Send User Password via EmailShow User_3c8377'))
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_email_1'), 'lctest_techadmin@lc.org')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_email_1'), 'lctest_dataentry_1@lc.org')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Send User Password via EmailShow User_3c8377'))
 

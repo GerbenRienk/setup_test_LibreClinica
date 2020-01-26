@@ -21,7 +21,7 @@ def importrule_url = GlobalVariable.lc_url + '/ImportRule'
 WebUI.navigateToUrl(importrule_url)
 
 WebUI.uploadFile(findTestObject('Object Repository/UploadRules/Page_OpenClinica/input_Upload an XML file here_button_long'), 
-    'D:\\OC\\Libre\\RuleFiles\\LCDiscrepancyNoteAction_20190604.xml')
+    'D:\\OC\\Libre\\RuleFiles\\LCDiscrepancyNoteAction_20200126.xml')
 
 WebUI.click(findTestObject('Object Repository/UploadRules/Page_OpenClinica/input__button_long'))
 
