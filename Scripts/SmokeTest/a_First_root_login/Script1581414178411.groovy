@@ -39,13 +39,14 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Password 
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
 
+def smoketest_user = GlobalVariable.st_techadmin + GlobalVariable.st_suffix
 def create_new_user_url = GlobalVariable.lc_url + '/CreateUserAccount'
 
 WebUI.navigateToUrl(create_new_user_url)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), 'lctest_techadmin')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), smoketest_user)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_First Name_firstName'), 'LC Test')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_First Name_firstName'), 'ST Test')
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Last Name_lastName'), 'Technical Administrator')
 
@@ -66,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Send User P
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_email_1'), 'lctest_techadmin@lc.org')
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_email_1'), 'st_techadmin@lc.org')
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Send User Password via EmailShow User_3c8377'))
 

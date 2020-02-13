@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-   <description></description>
+   <description>This project has two goals:
+1 - set up the default test study
+2 - run as much of the smoketest as possible</description>
    <name>setup_test_LibreClinica</name>
    <tag></tag>
    <UUID>93191bfd-ade3-487d-bc0a-d1061e474e1d</UUID>
