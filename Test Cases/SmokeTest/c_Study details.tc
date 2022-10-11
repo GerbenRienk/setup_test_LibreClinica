@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Provides all details for the main study</description>
-   <name>c_Study details</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e03c7e22-993b-46a5-b46d-cc2d2fb62970</testCaseGuid>
-</TestCaseEntity>
