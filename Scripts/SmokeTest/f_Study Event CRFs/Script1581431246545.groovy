@@ -55,3 +55,16 @@ WebUI.click(findTestObject('Page_LibreClinica/input_st_techadmin01_Submit'))
 WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Double Data Entry_doubleEntry0'))
 WebUI.click(findTestObject('Page_LibreClinica/input_st_techadmin01_Submit'))
 WebUI.click(findTestObject('Page_LibreClinica/input_Not Required_submit'))
+
+WebUI.setText(findTestObject('Page_LibreClinica/input_Found 9 Definitions_ebl_filterKeyword'), 'Rules')
+WebUI.sendKeys(findTestObject('Page_LibreClinica/input_Found 9 Definitions_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_LibreClinica/img_No_bt_Edit1'))
+WebUI.click(findTestObject('Page_LibreClinica/a_Add a New CRF'))
+WebUI.setText(findTestObject('Page_LibreClinica/input_Found 9 Definitions_ebl_filterKeyword'), 'ST01_Rules')
+WebUI.sendKeys(findTestObject('Page_LibreClinica/input_Found 9 Definitions_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_LibreClinica/input_st_techadmin01_selected0'))
+WebUI.click(findTestObject('Page_LibreClinica/input_st_techadmin01_Submit'))
+WebUI.click(findTestObject('Page_LibreClinica/input_st_techadmin01_Submit'))
+WebUI.click(findTestObject('Page_LibreClinica/input_Not Required_submit'))
+
+

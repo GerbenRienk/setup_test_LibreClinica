@@ -19,34 +19,58 @@ import org.openqa.selenium.Keys as Keys
 def upload_crf_url = GlobalVariable.lc_url + '/CreateCRFVersion?module=manage'
 
 WebUI.navigateToUrl(upload_crf_url)
-WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf1_v1.xls')
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'C:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf1_v1.xls')
+
 WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
 WebUI.verifyTextPresent('Congratulations!', false)
+
 WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
 WebUI.verifyTextPresent('Data Committed Successfully', false)
 
 WebUI.navigateToUrl(upload_crf_url)
-WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf2_v1.xls')
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'C:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf2_v1.xls')
+
 WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
 WebUI.verifyTextPresent('Congratulations!', false)
+
 WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
 WebUI.verifyTextPresent('Data Committed Successfully', false)
 
 WebUI.navigateToUrl(upload_crf_url)
-WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_rules.xls')
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'C:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_rules.xls')
+
 WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
 WebUI.verifyTextPresent('Congratulations!', false)
+
 WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
 WebUI.verifyTextPresent('Data Committed Successfully', false)
 
 WebUI.click(findTestObject('Page_OpenClinica/a_Tasks'))
+
 WebUI.click(findTestObject('Page_OpenClinica/a_CRFs'))
+
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), 'CRF_1')
+
 WebUI.sendKeys(findTestObject('Object Repository/Page_OpenClinica/input_Page 1 of 1_ebl_filterKeyword'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/img_available_bt_NewVersion1'))
-WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'D:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf1_v2.xls')
+
+WebUI.uploadFile(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_excel_file'), 'C:\\\\OC\\\\Libre\\\\SmokeTestCRFS\\\\st_crf1_v2.xls')
+
 WebUI.click(findTestObject('Page_OpenClinica/input_MS Excel File To Upload_button_long'))
+
 WebUI.verifyTextPresent('Congratulations!', false)
+
 WebUI.click(findTestObject('Page_OpenClinica/input_Password_submit'))
+
 WebUI.verifyTextPresent('Data Committed Successfully', false)
 

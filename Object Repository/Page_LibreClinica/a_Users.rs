@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/lcw071/ListUserAccounts</value>
+      <value>ListUserAccounts</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/lcw071/ListUserAccounts')]</value>
+      <value>//a[contains(@href, 'ListUserAccounts')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[14]/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/lcw071/ListUserAccounts')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

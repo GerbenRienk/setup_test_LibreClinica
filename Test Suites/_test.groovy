@@ -55,12 +55,7 @@ def setupTestCase() {
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
-def tearDownTestCase() {
-	// Put your code here.
-}
-
-/**
- * References:
- * Groovy tutorial page: http://docs.groovy-lang.org/next/html/documentation/
- */
+@Tear     <ItemData ItemOID="I_SMEAR_SMEAR_F_150I" Value="2019-05-03">
+                            <MeasurementUnitRef MeasurementUnitOID="MU_DDMMMYYYY"/>
+                            <OpenClinica:AuditLogs EntityID="I_SMEAR_SMEAR_F_150I">
+         

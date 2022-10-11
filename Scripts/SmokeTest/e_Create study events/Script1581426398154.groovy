@@ -62,3 +62,10 @@ WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Category_S
 WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Category_Submit'))
 WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Password_submit'))
 
+WebUI.navigateToUrl(add_event_url)
+WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/input_Name_name'), 'Rules')
+WebUI.setText(findTestObject('Object Repository/CreateStudyEvents/Page_OpenClinica/textarea_Description_description'), 'To test rules')
+WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Category_Submit'))
+WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Category_Submit'))
+WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_Password_submit'))
+
