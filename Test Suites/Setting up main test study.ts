@@ -29,7 +29,7 @@
       <guid>a5b7e01b-8ce2-4855-a1ac-fe96b716b4fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/d_Upload test crfs</testCaseId>
+      <testCaseId>Test Cases/SmokeTest/d1_Upload test crfs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -78,7 +78,7 @@
       <guid>c12ff25f-9270-4bfd-a488-e0f5ddbb489f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Upload rules</testCaseId>
+      <testCaseId>Test Cases/00 Archive/Upload rules</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

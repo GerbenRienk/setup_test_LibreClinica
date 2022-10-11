@@ -22,7 +22,7 @@
       <guid>a5b7e01b-8ce2-4855-a1ac-fe96b716b4fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/d_Upload test crfs</testCaseId>
+      <testCaseId>Test Cases/SmokeTest/d1_Upload test crfs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

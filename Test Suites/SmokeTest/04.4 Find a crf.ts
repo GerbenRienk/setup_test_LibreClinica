@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>_test_a_case</name>
+   <description>The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.</description>
+   <name>04.4 Find a crf</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>6fe77806-eaee-49ec-a3b6-2acb4e691dd9</testSuiteGuid>
+   <testSuiteGuid>d0d6522d-e38f-4d01-abc2-8498217e53d6</testSuiteGuid>
    <testCaseLink>
-      <guid>d0c190d6-cbf9-4430-b991-85babb7b007a</guid>
+      <guid>5cb44875-ef50-48ac-876f-8bac2878d45b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SmokeTest/b1_Techadmin login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a4a44b2-2f3c-49a8-9f98-62ff7b937621</guid>
+      <guid>a5b7e01b-8ce2-4855-a1ac-fe96b716b4fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SmokeTest/d2_find_crf</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
