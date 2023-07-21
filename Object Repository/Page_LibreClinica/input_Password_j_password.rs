@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='j_password']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#j_password</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e51ac7de-5dee-48ab-b3fa-e38ecfc7cd70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>877d5389-2ae6-4885-9511-3d3059542226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_password</value>
+      <webElementGuid>62803845-b654-44bb-bf42-726eb89098d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>j_password</value>
+      <webElementGuid>671c8838-5955-426f-994a-84d3326f13c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formfieldM</value>
+      <webElementGuid>8e460dfc-e657-44c6-801b-8faacc763553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +62,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>744cbe12-fc13-452d-8a55-f7a1f46377c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_password&quot;)</value>
+      <webElementGuid>df54e162-69dc-46c2-935a-acde11694db9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='j_password']</value>
+      <webElementGuid>5a59475d-08f6-4121-a26d-e8d4aa6429f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,13 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login']/form/div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/input</value>
+      <webElementGuid>2af1ee55-4427-4af6-a5f0-bed4d5ac7a7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]</value>
+      <webElementGuid>db175347-3c92-4fb0-8d1f-b8da611be482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/following::input[2]</value>
+      <webElementGuid>07f7c4d0-cc77-4838-9b70-9bb434b4f260</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Password Form'])[1]/preceding::input[2]</value>
+      <webElementGuid>c856c0f0-552a-48e0-bc46-64c9414d4e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +118,22 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LDAP users, recover your password here.'])[1]/preceding::input[2]</value>
+      <webElementGuid>df8ec4c0-ed2f-4980-89b8-126878f8bc6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>16240f7d-ede8-4c1e-83d3-7b543a876fb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password' and @id = 'j_password' and @name = 'j_password']</value>
+      <webElementGuid>4361b78e-9ee7-4a87-a535-a6518ab79057</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -15,14 +15,14 @@
       <guid>d0c190d6-cbf9-4430-b991-85babb7b007a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/b1_Techadmin login</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/b1_Techadmin login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9a4a44b2-2f3c-49a8-9f98-62ff7b937621</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/d2_find_crf</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/SmokeTestCases/d2_find_crf</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

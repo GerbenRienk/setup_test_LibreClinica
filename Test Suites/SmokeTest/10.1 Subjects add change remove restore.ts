@@ -15,30 +15,35 @@
       <guid>d3c98c7b-1ef5-43f6-9af3-afcea382a075</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/b1_Techadmin login</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/b1_Techadmin login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c5c9cf70-540b-4f7e-990e-7f71cdac75ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/m_Add new subject plus change</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/m_Add new subject plus change</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>103a8feb-f246-4ce6-b51f-9a98a7396d69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/n_Remove and restore subject</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/n_Remove and restore subject</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>07073ba0-cab4-42fc-9a27-9ab34b1a0ccb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/o_Reassign subject to site</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/o_Reassign subject to site</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>639a2aa9-9fb5-4117-bf79-1f0eff2fd310</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Close browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

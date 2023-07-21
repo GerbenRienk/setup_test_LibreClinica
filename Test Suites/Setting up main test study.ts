@@ -15,21 +15,21 @@
       <guid>5cb44875-ef50-48ac-876f-8bac2878d45b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/b1_Techadmin login</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/b1_Techadmin login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1d08bc20-f45f-429b-a743-41dd98c0608d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/SmokeTest/c1_Create Study</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/c1_Create Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a5b7e01b-8ce2-4855-a1ac-fe96b716b4fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/d1_Upload test crfs</testCaseId>
+      <testCaseId>Test Cases/SmokeTestCases/d1_Upload test crfs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
