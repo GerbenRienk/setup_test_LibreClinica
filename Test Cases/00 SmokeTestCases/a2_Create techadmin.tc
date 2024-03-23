@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>After creating a blank database, login as root and create the techadmin account that we use for the rest of the setup.</description>
+   <name>a2_Create techadmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df2e210f-f907-459d-bf31-9e9a2fa5a117</testCaseGuid>
+</TestCaseEntity>

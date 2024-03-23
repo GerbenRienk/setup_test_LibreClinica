@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.</description>
-   <name>11 Upload rules</name>
+   <name>01 Create user techadmin</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>73187111-63c6-4146-95af-af225868820c</testSuiteGuid>
+   <testSuiteGuid>1413d901-d98a-41e3-b806-a28216c7865e</testSuiteGuid>
    <testCaseLink>
       <guid>5cb44875-ef50-48ac-876f-8bac2878d45b</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -19,14 +19,21 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c12ff25f-9270-4bfd-a488-e0f5ddbb489f</guid>
+      <guid>cc1b7ccb-2cfc-45e1-8e07-379f90282808</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Upload rules</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/c1_Create Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c3865d9f-7a82-4d23-8349-4249523b9c49</guid>
+      <guid>caa8d528-e296-40f0-8561-ec9535cdbe6a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/00 SmokeTestCases/c2_Update Study details</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
