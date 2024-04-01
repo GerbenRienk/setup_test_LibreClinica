@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>c5c9cf70-540b-4f7e-990e-7f71cdac75ff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/00 SmokeTestCases/m_Add new subject plus change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -35,15 +35,15 @@
    <testCaseLink>
       <guid>07073ba0-cab4-42fc-9a27-9ab34b1a0ccb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/00 SmokeTestCases/o_Reassign subject to site</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>639a2aa9-9fb5-4117-bf79-1f0eff2fd310</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/00 SmokeTestCases/z9_Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

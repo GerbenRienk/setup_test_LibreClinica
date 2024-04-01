@@ -21,8 +21,8 @@
    <testCaseLink>
       <guid>9a4a44b2-2f3c-49a8-9f98-62ff7b937621</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/00 SmokeTestCases/d2_find_crf</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/00 SmokeTestCases/h2_2_Create user cra</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

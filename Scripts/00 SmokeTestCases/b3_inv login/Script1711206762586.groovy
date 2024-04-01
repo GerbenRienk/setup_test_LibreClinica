@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -12,22 +11,22 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+// import for constructing the dat-time to use a as variable in the script
+import groovy.time.TimeCategory as TimeCategory
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.lc_url)
+def login_url = GlobalVariable.lc_url + '/pages/login/login'
 
-WebUI.setText(findTestObject('Page_OpenClinica/input_User Name_j_username'), 'root')
+WebUI.navigateToUrl(login_url)
 
-WebUI.setEncryptedText(findTestObject('Page_OpenClinica/input_Password_j_password'), GlobalVariable.tech_admin_pw)
+WebUI.setText(findTestObject('Object Repository/input_User Name_j_username'), GlobalVariable.st_inv)
 
-WebUI.sendKeys(findTestObject('Page_OpenClinica/input_Password_j_password'), Keys.chord(Keys.ENTER))
+WebUI.setEncryptedText(findTestObject('input_Password_j_password'), GlobalVariable.st_inv_pw)
 
-WebUI.delay(2)
-
-WebUI.verifyTextPresent('Welcome ', false)
+WebUI.sendKeys(findTestObject('Object Repository/input_Password_j_password'), Keys.chord(Keys.ENTER))
 

@@ -16,13 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def smoketest_user = GlobalVariable.st_techadmin + GlobalVariable.st_suffix
-
 def create_new_user_url = GlobalVariable.lc_url + '/CreateUserAccount'
 
 WebUI.navigateToUrl(create_new_user_url)
 
-WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), smoketest_user)
+WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_User Name_userName'), GlobalVariable.st_techadmin)
 
 WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_First Name_firstName'), 'ST Test')
 
@@ -50,6 +48,4 @@ WebUI.setText(findTestObject('Object Repository/Page_OpenClinica/input_Email_ema
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input_Send User Password via EmailShow User_3c8377'))
 
 WebUI.click(findTestObject('Object Repository/Page_OpenClinica/input__submit'))
-
-WebUI.closeBrowser()
 

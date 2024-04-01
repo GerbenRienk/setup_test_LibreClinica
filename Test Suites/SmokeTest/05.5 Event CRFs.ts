@@ -29,7 +29,7 @@
       <guid>87694611-abab-4b37-a5b0-17a8f7ff92f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/z9_Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

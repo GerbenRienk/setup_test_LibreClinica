@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>After creating a blank database, login as root and create the techadmin account that we use for the rest of the setup.</description>
-   <name>h2_Create users cra inv</name>
+   <name>h2_2_Create user cra</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8197db98-58f0-48b4-880f-be7b7acb030e</testCaseGuid>

@@ -15,16 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 def subject_matrix_url = GlobalVariable.lc_url + '/ListStudySubjects'
+
+def subject = 'subject_del_rest'
 
 WebUI.navigateToUrl(subject_matrix_url)
 
 WebUI.click(findTestObject('Object Repository/Page_LibreClinica/a_Add New Subject'))
 
-WebUI.setText(findTestObject('Object Repository/Page_LibreClinica/input_Study Subject ID_label'), 'ST_ID001')
+WebUI.setText(findTestObject('Object Repository/Page_LibreClinica/input_Study Subject ID_label'), subject)
 
-WebUI.setText(findTestObject('Object Repository/Page_LibreClinica/input_Person ID_uniqueIdentifier'), 'ST_Pers001')
+WebUI.setText(findTestObject('Object Repository/Page_LibreClinica/input_Person ID_uniqueIdentifier'), subject)
 
 WebUI.setText(findTestObject('Object Repository/Page_LibreClinica/input_Enrollment Date_enrollmentDate'), '01-Feb-2020')
 
@@ -42,15 +45,15 @@ WebUI.navigateToUrl(subject_matrix_url)
 
 WebUI.click(findTestObject('Page_LibreClinica/subject_matrix_filter'))
 
-WebUI.setText(findTestObject('Page_LibreClinica/input_Actions_filter'), 'ST_ID001')
+WebUI.setText(findTestObject('Page_LibreClinica/input_Actions_filter'), subject)
 
 WebUI.sendKeys(findTestObject('Page_LibreClinica/input_Actions_filter'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_LibreClinica/img_Schedule_bt_Remove1'))
 
-WebUI.click(findTestObject('Object Repository/Page_LibreClinica/input_available_submit'))
+WebUI.click(findTestObject('RemoveStudySubject/remove_study_subject'))
 
-WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+WebUI.acceptAlert()
 
 WebUI.verifyTextPresent('has been removed', false)
 
@@ -58,7 +61,7 @@ WebUI.navigateToUrl(subject_matrix_url)
 
 WebUI.click(findTestObject('Page_LibreClinica/subject_matrix_filter'))
 
-WebUI.setText(findTestObject('Page_LibreClinica/input_Actions_filter'), 'ST_ID001')
+WebUI.setText(findTestObject('Page_LibreClinica/input_Actions_filter'), subject)
 
 WebUI.sendKeys(findTestObject('Page_LibreClinica/input_Actions_filter'), Keys.chord(Keys.ENTER))
 

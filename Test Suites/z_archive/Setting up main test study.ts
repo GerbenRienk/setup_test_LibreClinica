@@ -50,14 +50,14 @@
       <guid>e3257de4-5902-43c4-b3b8-ff3dd1c69eb7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Create sites A and B</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/Create sites A and B</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/z9_Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -71,7 +71,7 @@
       <guid>ba7cea83-2522-45de-9d66-4d7a9543ec0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Site specific crf</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/g2_Site specific crf</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

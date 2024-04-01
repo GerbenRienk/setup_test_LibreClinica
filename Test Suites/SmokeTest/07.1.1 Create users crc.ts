@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.</description>
-   <name>07 Create users crc</name>
+   <name>07.1.1 Create users crc</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -22,21 +22,21 @@
       <guid>cc1b7ccb-2cfc-45e1-8e07-379f90282808</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 SmokeTestCases/h1_Create users crc 1 2</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/h1_1_Create user crc 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c81b1b57-89a8-464b-892f-b26676291cec</guid>
+      <guid>6aab27cb-510a-4238-bcea-15af2689080f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 SmokeTestCases/k_Set role of a user</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/h1_2_Create user crc 2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/z9_Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

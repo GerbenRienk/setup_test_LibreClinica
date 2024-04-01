@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>The main study contains all combinations and exceptions. It can be used as a sandbox for every aspect of LibreClinica.</description>
-   <name>01 Create user techadmin</name>
+   <name>07.1.2 Create users cra inv</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1413d901-d98a-41e3-b806-a28216c7865e</testSuiteGuid>
+   <testSuiteGuid>1e965dd6-ed09-4397-9d8d-520449476e98</testSuiteGuid>
    <testCaseLink>
       <guid>5cb44875-ef50-48ac-876f-8bac2878d45b</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -19,24 +19,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cc1b7ccb-2cfc-45e1-8e07-379f90282808</guid>
+      <guid>737eca28-0484-4a25-ad34-25087adc9e69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 SmokeTestCases/c1_Create Study</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/h2_2_Create user cra</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>caa8d528-e296-40f0-8561-ec9535cdbe6a</guid>
+      <guid>691f1a29-d3d3-4ac2-b735-703ac3117f6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/00 SmokeTestCases/c2_Update Study details</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/h2_1_Create user inv</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>17afe333-d86d-4786-91ef-3beeb615c432</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/z_99 Archive/Close browser</testCaseId>
+      <testCaseId>Test Cases/00 SmokeTestCases/z9_Close browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

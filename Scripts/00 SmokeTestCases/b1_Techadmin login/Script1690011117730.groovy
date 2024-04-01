@@ -32,9 +32,9 @@ def smoketest_user = GlobalVariable.st_techadmin + GlobalVariable.st_suffix
 
 WebUI.openBrowser(login_url)
 
-WebUI.setText(findTestObject('Object Repository/input_User Name_j_username'), GlobalVariable.tech_admin)
+WebUI.setText(findTestObject('Object Repository/input_User Name_j_username'), GlobalVariable.st_techadmin)
 
-WebUI.setEncryptedText(findTestObject('input_Password_j_password'), GlobalVariable.tech_admin_pw)
+WebUI.setEncryptedText(findTestObject('input_Password_j_password'), GlobalVariable.st_techadmin_pw)
 
 WebUI.sendKeys(findTestObject('Object Repository/input_Password_j_password'), Keys.chord(Keys.ENTER))
 
